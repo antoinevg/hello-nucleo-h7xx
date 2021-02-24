@@ -22,10 +22,6 @@ Based on the lovely: [knurling-rs/app-template](https://github.com/knurling-rs/a
 
 Download updater: [stsw-link007](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stsw-link007.html)
 
-### Install gdb
-
-    sudo port install arm-none-eabi-gdb
-
 
 ## Generate project
 
