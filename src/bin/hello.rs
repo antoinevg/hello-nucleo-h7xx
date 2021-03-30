@@ -8,7 +8,7 @@ use nucleo::led::Led;
 
 #[cortex_m_rt::entry]
 fn main() -> ! {
-    defmt::info!("Hello, bar!");
+    defmt::info!("Hello, {{crate_name}}!");
 
     // - board setup ----------------------------------------------------------
 
@@ -51,5 +51,5 @@ fn main() -> ! {
         defmt::info!("loop: {:?} of 10", n + 1);
     }
 
-    bar::exit()
+    {{crate_name}}::exit()
 }
