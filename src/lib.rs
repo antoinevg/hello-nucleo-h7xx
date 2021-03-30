@@ -3,7 +3,7 @@
 use core::sync::atomic::{AtomicUsize, Ordering};
 
 use defmt_rtt as _;     // global logger
-use nucleo_h745zi as _; // memory layout
+use nucleo_h7xx as _; // memory layout
 use panic_probe as _;   // panic handler
 
 

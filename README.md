@@ -1,6 +1,6 @@
-# hello-nucleo-h745zi
+# hello-nucleo-h7xx
 
-Rust [`probe-run`] + [`defmt`] starter project for the [STMicroelectronics Nucleo-H745ZI-Q](https://www.st.com/en/evaluation-tools/nucleo-h745zi-q.html) development board.
+Rust [`probe-run`] + [`defmt`] starter project for STMicroElectronics [STM32H7 Nucleo-144 boards](https://www.st.com/content/st_com/en/search.html#q=nucleo-h7-t=tools-page=1).
 
 [`probe-run`]: https://crates.io/crates/probe-run
 [`defmt`]: https://github.com/knurling-rs/defmt
@@ -28,7 +28,7 @@ Download updater: [stsw-link007](https://www.st.com/content/st_com/en/products/d
     cargo install cargo-generate
 
     cargo generate \
-        --git https://github.com/antoinevg/hello-nucleo-h745zi \
+        --git https://github.com/antoinevg/hello-nucleo-h7xx \
         --name your-project-name
 
 
